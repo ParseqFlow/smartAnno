@@ -35,11 +35,11 @@ devtools::install_github("ParseqFlow/scAnno", build = TRUE)
 
    - 创建令牌
 
-     ![image-20250301233047496](F:\R_package\scAnno\docs\images\image-20250301233047496.png)
+     ![image-20250301233047496](.\docs\images\image-20250301233047496.png)
 
    - 复制令牌
 
-     ![image-20250301234049903](F:\R_package\scAnno\docs\images\image-20250301234049903.png)
+     ![image-20250301234049903](.\docs\images\image-20250301234049903.png)
 
 2. 填写变量（该key免费提供，如果额度用完请去[NBchat](https://newapi.nbchat.site/)创建）
 
@@ -68,9 +68,9 @@ devtools::install_github("ParseqFlow/scAnno", build = TRUE)
 
    - 运行结果截图
 
-     ![image-20250301235129439](F:\R_package\scAnno\docs\images\image-20250301235129439.png)
+     ![image-20250301235129439](.\docs\images\image-20250301235129439.png)
 
-     ![image-20250301235241983](F:\R_package\scAnno\docs\images\image-20250301235241983.png)
+     ![image-20250301235241983](.\docs\images\image-20250301235241983.png)
 
 
 
