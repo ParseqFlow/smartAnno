@@ -1,59 +1,59 @@
 																																				[[English]](F:\R_package\scAnno\README.md)   [[中文]](F:\R_package\scAnno\README_zh-CN.md)
 
-# scAnno                                                  
+# scAnno 
 
 ------
 
-Automatic annotation of single cell sequencing data based on large language model for fast and accurate cell type identification.
+基于大语言模型的单细胞测序数据自动注释解决方案，实现快速准确的细胞类型鉴定。
 
-## 🧬 Function
+## 🧬 功能
 
--  **Compatible with OpenAI API format**
--  **Multi-model support**：Support DeepSeek-r1, o1, Claude-3.5 and other series models.
-- **Parallel acceleration**：Parallel acceleration is achieved by setting `works` according to the CPU core setting of the computer.
+-  **兼容OpenAI的API格式**
+-  **多模型支持**：支持DeepSeek-r1、o1、Claude-3.5等系列模型。
+- **并行加速**：通过设置`works`实现并行加速，根据电脑CPU核心设置  。
 
 
 
-## Install
+## 安装
 
 ```R
-# Step 1: install devtools
+# 1: 安装 devtools
 install.packages("devtools")
 library(devtools)
 
-# Step 2: install scAnno
+# 2: 安装scAnno
 devtools::install_github("ParseqFlow/scAnno", build = TRUE)
 ```
 
 
 
-## Tutorials
+## 教程
 
-1. Get the API-KEY（Thank you [NBchat API](https://newapi.nbchat.site/))support）
+1. 获取API-KEY（感谢[NBchat API](https://newapi.nbchat.site/))的支持）
 
-   - Create API-KE
+   - 创建令牌
 
-     ![image-20250302001318177](F:\R_package\scAnno\docs\images\image-2025030123341752.png)
+     ![image-20250301233047496](F:\R_package\scAnno\docs\images\image-20250301233047496.png)
 
-   - Copy it
+   - 复制令牌
 
-     ![image-20250302001355724](F:\R_package\scAnno\docs\images\image-20250302001355724.png)
+     ![image-20250301234049903](F:\R_package\scAnno\docs\images\image-20250301234049903.png)
 
-2. Fill in the variable (the key provided free of charge, and if the limit is used up, please go to [NBchat](https://newapi.nbchat.site/) to create）
+2. 填写变量（该key免费提供，如果额度用完请去[NBchat](https://newapi.nbchat.site/)创建）
 
    ``` R
    Sys.setenv(API_URL = "https://newapi.nbchat.site/v1/chat/completions")
    Sys.setenv(API_KEY = "sk-2nVFX8OZiAcOt8NNA21HX4EhZs7aiZsEol125ZqYjwT3E8zo") 
    ```
 
-3. Run
+3. 运行分析
 
    ``` R
    markers <- FindAllMarkers(object = scRNA,
                              test.use="wilcox" ,
                              only.pos = TRUE,
                              logfc.threshold = 0.25)  
-   #  Or use the sample data provided by the project
+   # 或者使用项目提供的示例数据
    markers=read.csv("data/all_DEG.csv",row.names = 1)
    anno <- scanno(
       markers,
@@ -64,7 +64,7 @@ devtools::install_github("ParseqFlow/scAnno", build = TRUE)
    subanno <- subanno(anno)
    ```
 
-   - Run result screenshot
+   - 运行结果截图
 
      ![image-20250301235129439](F:\R_package\scAnno\docs\images\image-20250301235129439.png)
 
