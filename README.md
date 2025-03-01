@@ -1,4 +1,6 @@
-​                                                                                                                                [[English]](F:\R_package\scAnno\README.md)   [[中文]](F:\R_package\scAnno\README_zh-CN.md)
+<p align="right">
+   <strong>English</strong> | <a href="./README_zh-CN.md">中文</a>
+</p>
 
 # scAnno                                                  
 
