@@ -4,8 +4,6 @@
 
 # scAnno                                                  
 
-------
-
 Automatic annotation of single cell sequencing data based on large language model for fast and accurate cell type identification.
 
 ## 🧬 Function
@@ -35,11 +33,11 @@ devtools::install_github("ParseqFlow/scAnno", build = TRUE)
 
    - Create API-KE
 
-     ![image-20250302001318177](.\docs\images\image-2025030123341752.png)
+     ![image-20250302001318177](https://github.com/ParseqFlow/scAnno/blob/main/docs/images/image-2025030123341752.png)
 
    - Copy it
 
-     ![image-20250302001355724](.\docs\images\image-20250302001355724.png)
+     ![image-20250302001355724](https://github.com/ParseqFlow/scAnno/blob/main/docs/images/image-20250302001355724.png)
 
 2. Fill in the variable (the key provided free of charge, and if the limit is used up, please go to [NBchat](https://newapi.nbchat.site/) to create）
 
@@ -68,9 +66,9 @@ devtools::install_github("ParseqFlow/scAnno", build = TRUE)
 
    - Run result screenshot
 
-     ![image-20250301235129439](.\docs\images\image-20250301235129439.png)
+     ![image-20250301235129439](https://github.com/ParseqFlow/scAnno/blob/main/docs/images/image-20250301235129439.png)
 
-     ![image-20250301235241983](.\docs\images\image-20250301235241983.png)
+     ![image-20250301235241983](https://github.com/ParseqFlow/scAnno/blob/main/docs/images/image-20250301235241983.png)
 
 
 
