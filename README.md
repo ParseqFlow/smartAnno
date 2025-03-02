@@ -58,7 +58,7 @@ devtools::install_github("ParseqFlow/smartAnno", build = TRUE)
    ann <- anno(
       markers,
       selected_clusters = c("0","1"),
-       model = "deepseek-r1-250120", # Other models：o1、claude-3.5
+       model = "deepseek-r1-250120", # Other models are being adapted：o1、claude-3.5
       background = "Human peripheral blood single-cell data",
       workers = 6,
       time_out = 200 #Set the timeout period. Some apis have poor quality and take a long time to return. You are advised to replace high-quality apis
