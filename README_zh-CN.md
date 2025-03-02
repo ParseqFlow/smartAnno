@@ -33,11 +33,11 @@ devtools::install_github("ParseqFlow/smartAnno", build = TRUE)
 
    - 创建令牌
 
-     ![image-20250301233047496](https://github.com/ParseqFlow/smartAnno/blob/main/docs/images/image-20250301233047496.png)
+     ![image-20250301233047496](docs/images/image-20250301233047496.png)
 
    - 复制令牌
 
-     ![image-20250301234049903](https://github.com/ParseqFlow/smartAnno/blob/main/docs/images/image-20250301234049903.png)
+     ![image-20250301234049903](docs/images/image-20250301234049903.png)
 
 2. 填写变量（该key免费提供，如果额度用完请去[NBchat](https://newapi.nbchat.site/)创建）
 
@@ -67,11 +67,9 @@ devtools::install_github("ParseqFlow/smartAnno", build = TRUE)
    
 - 运行结果截图
    
-  ![image-20250301235129439](https://github.com/ParseqFlow/smartAnno/blob/main/docs/images/image-20250301235129439.png)
-   
-     ![image-20250301235241983](https://github.com/ParseqFlow/smartAnno/blob/main/docs/images/image-20250301235241983.png)
+  ![image-20250302134649227](docs/images/image-20250301235129439.png)
 
-https://github.com/ParseqFlow/smartAnno/blob/main/docs/images/image-20250301235129439.png
+![image-20250302134737078](docs/images/image-20250301235241983.png)
 
 
 
