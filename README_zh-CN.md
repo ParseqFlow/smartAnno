@@ -63,14 +63,13 @@ devtools::install_github("ParseqFlow/smartAnno", build = TRUE)
       workers = 6,
       time_out = 200 # 设置超时时间，某些API质量较差，返回时间较长，建议更换高质量API
     )
-```
    
 - 运行结果截图
    
   ![image-20250302134649227](docs/images/image-20250301235129439.png)
 
-![image-20250302134737078](docs/images/image-20250301235241983.png)
-
+  ![image-20250302134737078](docs/images/image-20250301235241983.png)
+ 
 
 
 
