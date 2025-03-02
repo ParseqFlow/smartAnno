@@ -2,7 +2,7 @@
    <strong>English</strong> | <a href="./README_zh-CN.md">中文</a>
 </p>
 
-# scAnno                                                  
+# smartAnno                                                  
 
 Automatic annotation of single cell sequencing data based on large language model for fast and accurate cell type identification.
 
