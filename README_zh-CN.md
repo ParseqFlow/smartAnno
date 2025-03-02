@@ -58,7 +58,7 @@ devtools::install_github("ParseqFlow/smartAnno", build = TRUE)
    ann <- anno(
       markers,
       selected_clusters = c("0","1"),
-      model = "deepseek-r1-250120", # 可选其他模型：o1、claude-3.5
+      model = "deepseek-r1-250120", # 正在适配其他模型：o1、claude-3.5
       background = "人外周血单细胞样本，中文回答",
       workers = 6,
       time_out = 200 # 设置超时时间，某些API质量较差，返回时间较长，建议更换高质量API
