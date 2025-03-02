@@ -33,11 +33,11 @@ devtools::install_github("ParseqFlow/smartAnno", build = TRUE)
 
    - Create API-KE
 
-     ![image-20250302001318177](https://github.com/ParseqFlow/scAnno/blob/main/docs/images/image-2025030123341752.png)
+     ![image-20250302001318177](https://github.com/ParseqFlow/smartAnno/blob/main/docs/images/image-2025030123341752.png)
 
    - Copy it
 
-     ![image-20250302001355724](https://github.com/ParseqFlow/scAnno/blob/main/docs/images/image-20250302001355724.png)
+     ![image-20250302001355724](https://github.com/ParseqFlow/smartAnno/blob/main/docs/images/image-20250302001355724.png)
 
 2. Fill in the variable (the key provided free of charge, and if the limit is used up, please go to [NBchat](https://newapi.nbchat.site/) to create）
 
@@ -67,9 +67,9 @@ devtools::install_github("ParseqFlow/smartAnno", build = TRUE)
    
 - Run result screenshot
    
-  ![image-20250301235129439](https://github.com/ParseqFlow/scAnno/blob/main/docs/images/image-20250301235129439.png)
+  ![image-20250301235129439](https://github.com/ParseqFlow/smartAnno/blob/main/docs/images/image-20250301235129439.png)
    
-     ![image-20250301235241983](https://github.com/ParseqFlow/scAnno/blob/main/docs/images/image-20250301235241983.png)
+     ![image-20250301235241983](https://github.com/ParseqFlow/smartAnno/blob/main/docs/images/image-20250301235241983.png)
 
 
 
