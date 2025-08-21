@@ -1,0 +1,112 @@
+=== smartAnno Multi-Model Annotation Log ===
+Start Time: 2025-08-21 15:43:26
+Models: deepseek-r1-250528
+Background: 小鼠，HFpEF模型
+Parameters: gene_number=50, p_threshold=0.05, temperature=0.1, max_tokens=1000
+==========================================
+
+
+[REQUEST] 2025-08-21 15:43:26
+Model: deepseek-r1-250528
+API Format: openai
+Temperature: 0.1
+Max Tokens: 1000
+Prompt: You are a senior biomedical professor specializing in single-cell data analysis. The user is conducting single-cell annotation analysis and will provide: 1. Sample background: 小鼠，HFpEF模型 2. The top 50...
+---
+[REQUEST] 2025-08-21 15:43:27
+Model: deepseek-r1-250528
+API Format: openai
+Temperature: 0.1
+Max Tokens: 1000
+Prompt: You are a senior biomedical professor specializing in single-cell data analysis. The user is conducting single-cell annotation analysis and will provide: 1. Sample background: 小鼠，HFpEF模型 2. The top 50...
+---
+[REQUEST] 2025-08-21 15:43:27
+Model: deepseek-r1-250528
+API Format: openai
+Temperature: 0.1
+Max Tokens: 1000
+Prompt: You are a senior biomedical professor specializing in single-cell data analysis. The user is conducting single-cell annotation analysis and will provide: 1. Sample background: 小鼠，HFpEF模型 2. The top 50...
+---
+[REQUEST] 2025-08-21 15:43:27
+Model: deepseek-r1-250528
+API Format: openai
+Temperature: 0.1
+Max Tokens: 1000
+Prompt: You are a senior biomedical professor specializing in single-cell data analysis. The user is conducting single-cell annotation analysis and will provide: 1. Sample background: 小鼠，HFpEF模型 2. The top 50...
+---
+[REQUEST] 2025-08-21 15:43:28
+Model: deepseek-r1-250528
+API Format: openai
+Temperature: 0.1
+Max Tokens: 1000
+Prompt: You are a senior biomedical professor specializing in single-cell data analysis. The user is conducting single-cell annotation analysis and will provide: 1. Sample background: 小鼠，HFpEF模型 2. The top 50...
+---
+[REQUEST] 2025-08-21 15:43:28
+Model: deepseek-r1-250528
+API Format: openai
+Temperature: 0.1
+Max Tokens: 1000
+Prompt: You are a senior biomedical professor specializing in single-cell data analysis. The user is conducting single-cell annotation analysis and will provide: 1. Sample background: 小鼠，HFpEF模型 2. The top 50...
+---
+[RESPONSE] 2025-08-21 15:44:00
+Success: TRUE
+Content: >Cardiomyocyte (stressed)<
+
+**Justification:**  
+- **Core cardiomyocyte markers:** `Tnnt2` (cardiac troponin T, definitive cardiomyocyte marker) and `Fabp3` (fatty-acid binding protein, enriched in cardiomyocytes) dominate the list.  
+- **Stress/Disease signatures:** `Neat1` (upregulated in stressed/hypertrophic cardiomyocytes), `Nfkb2` (linked to inflammatory stress in HFpEF), and `Rbbp8` (DNA damage response) indicate pathological stress.  
+- **Contextual fit:** Consistent with HFpEF pathophys...
+========================================
+
+[RESPONSE] 2025-08-21 15:44:07
+Success: TRUE
+Content: >Vascular Smooth Muscle Cell (stressed)<
+
+**Justification:**  
+The marker gene profile strongly indicates **Vascular Smooth Muscle Cells (VSMCs)**. Key evidence includes:
+1.  **Definitive VSMC Markers:** `Klf5` (Krüppel-like factor 5) is a critical transcription factor for VSMC differentiation and function. `Cited4` (Cbp/p300-interacting transactivator 4) is a well-established marker of VSMCs, particularly in cardiovascular contexts.
+2.  **Supporting VSMC Markers:** `Epop` (Elongin BC and polyco...
+========================================
+
+[RESPONSE] 2025-08-21 15:44:16
+Success: TRUE
+Content: >Cardiomyocyte (stressed)<
+
+**Justification:**  
+The marker gene profile strongly indicates cardiomyocyte identity:  
+- **Klf15** is a well-established cardiomyocyte-specific transcription factor regulating cardiac metabolism and stress responses.  
+- **Tbxa2r** (thromboxane receptor) is highly expressed in cardiomyocytes during pathological remodeling.  
+- **Mitochondrial genes** (Mrpl44, Mrpl53, Atpaf1) reflect high metabolic demand, consistent with cardiomyocytes.  
+- Stress markers **Ddit4l*...
+========================================
+
+[RESPONSE] 2025-08-21 15:44:27
+Success: TRUE
+Content: >Cardiomyocyte (stressed)<
+
+**Justification:**  
+The gene expression profile strongly indicates stressed cardiomyocytes:  
+- **Cardiomyocyte markers**: *Corin* (atrial cardiomyocyte-specific protease), *Fbxo32* (muscle atrophy marker in cardiomyocytes), *Tubb4b/Tuba1c* (structural tubulins).  
+- **Stress response dominance**: Multiple heat-shock proteins (*Hspb1*, *Hspa1a*, *Hspa8*), DNA-damage responders (*Gadd45b*, *Cdkn1a*), and immediate-early genes (*Fos*, *Jun*, *Atf3*, *Nr4a1/Nr4a2*) refl...
+========================================
+
+[RESPONSE] 2025-08-21 15:45:28
+Success: TRUE
+Content: >Cardiomyocyte (stressed)<
+
+**Justification:**  
+The gene profile strongly indicates a **cardiomyocyte** identity with signs of cellular stress:  
+- Key markers: `Drd1` (dopamine receptor, linked to cardiac stress response in HFpEF), `Tigar` (TP53-induced regulator, protects against oxidative stress), `Ddit4l` (hypoxia/energy stress response), `Rab3a` (atrial cardiomyocyte secretion regulation).  
+- Mitochondrial genes (`Mrps22`, `Sirt5`, `Mtx2`, `Coasy`) reflect heightened metabolic demand in f...
+========================================
+
+[RESPONSE] 2025-08-21 15:45:40
+Success: TRUE
+Content: >Fibroblast (activated)<
+
+**Justification:**  
+The marker genes strongly indicate an **activated fibroblast** phenotype, characteristic of extracellular matrix (ECM) remodeling and inflammatory response in HFpEF:  
+- **ECM/collagen genes** (Col6a1, Col6a2, Col8a1, Col15a1, Vcan, Fbln1, Fbln2, Cilp) dominate the profile, consistent with fibroblast-driven fibrosis.  
+- **Activation markers** include Mmp3 (matrix degradation), Pdpn (mesenchymal activation), Ly6a (Sca-1+ progenitor-like fibroblasts)...
+========================================
+

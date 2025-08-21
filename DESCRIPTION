@@ -1,0 +1,31 @@
+Package: smartAnno
+Type: Package
+Title: Smart Cell Type Annotation Using AI Models
+Version: 2.0.0
+Authors@R: c(
+    person(
+      "User", "Name",
+      email = "user@example.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Provides intelligent cell type annotation for single-cell RNA-seq data
+    using multiple AI models including DeepSeek, GPT, Gemini, and Claude.
+    The package analyzes marker genes and leverages AI to suggest cell type annotations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    httr,
+    jsonlite,
+    dplyr,
+    future,
+    furrr,
+    purrr,
+    stringr,
+    tibble,
+    utils,
+    Seurat
+Suggests:
+    testthat (>= 3.0.0)
+RoxygenNote: 7.3.2

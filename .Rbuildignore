@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.Rhistory$
+^data/.*\.csv$
+^README\.Rmd$
+^LICENSE\.md$
