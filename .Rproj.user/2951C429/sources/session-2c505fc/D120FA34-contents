@@ -1,0 +1,39 @@
+# 测试GPT-5-mini和Gemini-2.5-pro-free多模型注释
+# 直接加载R文件中的函数，不构建R包
+source("R/api_functions.R")
+source("R/single_cell_annotation.R")
+library(dplyr)
+library(httr)
+library(jsonlite)
+library(parallel)
+library(future)
+library(furrr)
+library(purrr)
+library(stringr)
+library(tibble)
+library(dplyr)
+library(future)
+library(furrr)
+library(purrr)
+library(stringr)
+library(tibble)
+
+markers =read.csv("./data/SMC_markers.csv")
+
+result <- multi_model_annotate(
+  markers = markers,
+  background = "小鼠，HFpEF模型",
+  api_key = "sk-VWxkz8Vbrat9BcFGgKB3OsjwywbhETCwPuAD71uJwkdTfqPM",
+  base_url = "https://newapi.nbchat.site",
+  gene_number = 50,
+  p_threshold = 0.05,
+  workers = 10,
+  time_out = 200,
+  log_file = "./log.txt",
+  model_name = c(
+    "deepseek-r1-250528"
+  )
+)
+
+
+result

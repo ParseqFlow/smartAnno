@@ -1,0 +1,50 @@
+=== smartAnno Multi-Model Annotation Log ===
+Start Time: 2025-08-21 15:38:36
+Models: claude-sonnet-4-20250514-thinking-all
+Background: 小鼠，HFpEF模型
+Parameters: gene_number=50, p_threshold=0.05, temperature=0.1, max_tokens=1000
+==========================================
+
+
+[REQUEST] 2025-08-21 15:38:37
+Model: claude-sonnet-4-20250514-thinking-all
+API Format: claude
+Temperature: 0.1
+Max Tokens: 1000
+Prompt: You are a senior biomedical professor specializing in single-cell data analysis. The user is conducting single-cell annotation analysis and will provide: 1. Sample background: 小鼠，HFpEF模型 2. The top 50...
+---
+[REQUEST] 2025-08-21 15:38:37
+Model: claude-sonnet-4-20250514-thinking-all
+API Format: claude
+Temperature: 0.1
+Max Tokens: 1000
+Prompt: You are a senior biomedical professor specializing in single-cell data analysis. The user is conducting single-cell annotation analysis and will provide: 1. Sample background: 小鼠，HFpEF模型 2. The top 50...
+---
+[REQUEST] 2025-08-21 15:38:37
+Model: claude-sonnet-4-20250514-thinking-all
+API Format: claude
+Temperature: 0.1
+Max Tokens: 1000
+Prompt: You are a senior biomedical professor specializing in single-cell data analysis. The user is conducting single-cell annotation analysis and will provide: 1. Sample background: 小鼠，HFpEF模型 2. The top 50...
+---
+[REQUEST] 2025-08-21 15:38:37
+Model: claude-sonnet-4-20250514-thinking-all
+API Format: claude
+Temperature: 0.1
+Max Tokens: 1000
+Prompt: You are a senior biomedical professor specializing in single-cell data analysis. The user is conducting single-cell annotation analysis and will provide: 1. Sample background: 小鼠，HFpEF模型 2. The top 50...
+---
+[REQUEST] 2025-08-21 15:38:37
+Model: claude-sonnet-4-20250514-thinking-all
+API Format: claude
+Temperature: 0.1
+Max Tokens: 1000
+Prompt: You are a senior biomedical professor specializing in single-cell data analysis. The user is conducting single-cell annotation analysis and will provide: 1. Sample background: 小鼠，HFpEF模型 2. The top 50...
+---
+[REQUEST] 2025-08-21 15:38:38
+Model: claude-sonnet-4-20250514-thinking-all
+API Format: claude
+Temperature: 0.1
+Max Tokens: 1000
+Prompt: You are a senior biomedical professor specializing in single-cell data analysis. The user is conducting single-cell annotation analysis and will provide: 1. Sample background: 小鼠，HFpEF模型 2. The top 50...
+---
